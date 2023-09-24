@@ -1,10 +1,10 @@
 clear
 
 % 効率
-eta = 0.8; % 走行抵抗や損失をもろもろ考慮した効率
+eta = 0.7; % 走行抵抗やギアの損失をもろもろ考慮した効率
 
 % 機構的なパラメータ
-m = 110e-3; % 重量[kg]
+m = 120e-3; % 重量[kg]
 T = 100e-3; % トレッド[m]
 r = 11e-3; % タイヤの半径[m]
 
@@ -23,5 +23,5 @@ T_max = 5.45e-3 * voltage_constant_times; % 停動トルク[Nm]
 
 
 % 要求パラメータ
-max_velocity = 6; % 最高速度[m/s]
+max_velocity = 5; % 最高速度[m/s]
 max_acceleration = 25; % 最高加速度[m/s^2]
